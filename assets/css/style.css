@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400&family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: League Spartan;
+}
+
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #0CDAC3;
+}
+
+main{ 
+    margin-top: 7rem;
+    width: 80vw;
+    margin-left: 10%;
+}
+
+.azulClaro{
+    color: #0CDAC3;
+    
+}
+
+.textoPrincipal{
+    display: flex;
+    justify-content: center;
+    line-height: 60px;
+    font-size: 25px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 105vh;
+    gap: 16px;
+}
+
+.card {
+    background-color: #fff;
+    width: 50%;
+    height: 60%;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    padding-left: 30px;
+    margin: 25px;
+  }
+  .card img {
+    width: 90%;
+    height: 300px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-top: 20px;
+    margin-right: 20%;
+  }
+  .card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    margin-right: 10%;
+  }
+  .card h1 {
+    font-size: 1.2rem;
+  }
+  .card h2 {
+    font-size: .9rem;
+    color: #aaaa;
+    margin-top: 5px;
+  }
+  .card button {
+    background-color: #0CDAC3;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    margin-top: 10px;
+    width: 70%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+
+  .card button a:hover{
+    color: #fff;
+  }
+
+  .textoEscondido{
+    display: none;
+  }
+footer{
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #31425A;
+  padding-bottom: 50px;
+}
+
+footer #space{
+  padding-right: 500px;
+  background-color: #31425A;
+  
+}
+
+footer img{
+  border-radius: 10px;
+}
+
+footer li{
+  flex-direction: row;
+  justify-content: end;
+  margin-left: 15px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+footer ul{
+  margin-top: 40px;
+  display: flex;
+  padding-right: 0;
+  padding-left: 0;
+  background-color: #31425A;
+  text-decoration: none;
+  list-style: none;
+}
+
+footer p{
+  color: #0CDAC3;
+  background-color: #31425A;
+  padding-left: 30%;
+  margin-top: 40px;
+}
+
+@media(max-width: 1000px){
+  
+.cards{
+  display: none;
+}
+
+  .textoEscondido{
+    padding-top: 50px;
+    display: block;
+    padding-bottom: 50px;
+  }
+
+  .textoEscondido li{
+    text-decoration: none;
+    list-style: none;
+    line-height: 50px;
+    color: #31425A;
+  }
+
+  .textoEscondido a{
+    color: #31425A;
+    font-size: 5vh;
+  }
+
+  .textoEscondido a:hover{
+    color: #0CDAC3;
+  }
+}
